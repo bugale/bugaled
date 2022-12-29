@@ -1,0 +1,5 @@
+pylint
+mypy
+flake8
+types-psutil
+-r requirements.txt
