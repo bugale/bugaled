@@ -1,0 +1,2 @@
+openrgb-python
+psutil
