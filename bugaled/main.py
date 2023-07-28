@@ -11,8 +11,9 @@ from openrgb import OpenRGBClient
 from openrgb.utils import RGBColor
 
 
-STEPS = 720
-CYCLE_TIME = 3
+CYCLE_TIME = 2
+FPS = 180
+STEPS = int(FPS * CYCLE_TIME)
 CLOCKWISE = True
 
 OPENRGB_PATH = r'C:\Program Files\OpenRGB\OpenRGB.exe'
